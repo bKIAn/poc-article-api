@@ -73,9 +73,19 @@ $ curl -X GET http://localhost:8080/tags/commontag/2013-01-21
 1. Implement of Article API: https://golangexample.com/implementation-of-technical-test-article-api/
 
 
+## Wishlist
+1. Using Infrastructure as Code (IaC) to deploy the API inside of a Docker Container.
+1. Using config files for reading parameters (port, maximum results, etc.) instead of hardcoding.
+1. Storing full timestamp (date + time) for each article.
+1. Reading from and writing to a JSON file. 
+1. Reading parameters from command line (port, filename, etc.).
+1. Reading from and writing to a database.
+1. Searching and providing the results based on the user's timezone.
+
+
 ## Contributing
-1. Fork it
-1. Create your feature branch (`$ git checkout -b my-new-feature`)
-1. Commit your changes (`$ git commit -am 'Add some feature'`)
-1. Push to the branch (`$ git push origin my-new-feature`)
-1. Create new Pull Request
+1. Fork it.
+1. Create your feature branch (`$ git checkout -b my-new-feature`).
+1. Commit your changes (`$ git commit -am 'Add some feature'`).
+1. Push to the branch (`$ git push origin my-new-feature`).
+1. Create new Pull Request.
