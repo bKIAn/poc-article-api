@@ -71,16 +71,26 @@ $ curl -X GET http://localhost:8080/tags/commontag/2013-01-21
 1. Go by Example: https://gobyexample.com/
 1. RESTful API with Go and Gin: https://go.dev/doc/tutorial/web-service-gin
 1. Implement of Article API: https://golangexample.com/implementation-of-technical-test-article-api/
+1. OWASP API Security Project: https://owasp.org/www-project-api-security/
+1. RESTful Web API Design - Best Practices: https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design
+1. Nine Best Practices for REST API Development: https://www.partech.nl/nl/publicaties/2020/07/9-trending-best-practices-for-rest-api-development#
 
 
 ## Wishlist
-1. Using Infrastructure as Code (IaC) to deploy the API inside of a Docker Container.
+1. Fix the known issue in the result of the tag-date endpoint.
+1. Using Infrastructure as Code (IaC) to deploy the API inside a Docker Container.
+1. Review API against Best Practices.
+1. Audit and prioritise security measurements per OWASP API Security Project.
+1. Reprioritise the Wishlist.
+1. Implement using SSL/TLS.
+1. Review HTTP Status Codes in results.
 1. Using config files for reading parameters (port, maximum results, etc.) instead of hardcoding.
-1. Storing full timestamp (date + time) for each article.
-1. Reading from and writing to a JSON file. 
-1. Reading parameters from command line (port, filename, etc.).
+1. Storing complete timestamp (date + time) for each article.
+1. Reading from and writing to a JSON file.
+1. Reading parameters from the command line (port, filename, etc.).
 1. Reading from and writing to a database.
 1. Searching and providing the results based on the user's timezone.
+1. Return error details in the Response Body.
 
 
 ## Contributing
